@@ -14,6 +14,7 @@ return require('packer').startup(function(use)
   }
 
   use({ 'rose-pine/neovim', as = 'rose-pine' })
+  use('apple/pkl-neovim')
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('theprimeagen/harpoon')
   use('mbbill/undotree')
